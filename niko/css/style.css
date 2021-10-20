@@ -1,0 +1,162 @@
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jua', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wrap{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    
+}
+
+.wrap > div{
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.wrap .left{
+    width: 20%;
+}
+
+.wrap .center{
+    width: 60%;
+}
+
+.wrap .right{
+    width: 19%;
+    float: right;
+}
+
+.wrap .center #login-form input{
+    animation: heart 1.5s infinite ease-in-out alternate;
+}
+
+.wrap .center input:first-child{
+    width: 15vw;
+    height: 5vh;
+    background-color: tomato;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.wrap .center input:last-child{
+    width: 5vw;
+    height: 7vh;
+    background-color: gold;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.wrap .center #login-form{
+    margin-bottom: 150px;
+}
+
+
+
+.wrap .center #greeting{
+    margin-top: -5px;
+    margin-bottom: 150px;
+}
+
+.wrap .center #clock{
+    background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 25vh;
+    margin: 0 auto 80px auto;
+    transition: 1.5s;
+}
+
+.wrap .center #clock:hover{
+    transform: scale(1.5);
+}
+
+
+.wrap #quote{
+    margin: 0 auto;
+    transition: 1.5s;
+}
+
+.wrap #quote:hover{
+    transform: skew(180deg);
+}
+
+
+.wrap #quote span{
+    color: floralwhite;
+}
+
+.wrap .right{
+
+}
+
+.wrap .right input{
+    display: block;
+    float: left;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap .right input:focus{
+    border: 5px red solid;
+    animation: heart 1.5s infinite ease-in-out alternate;
+}
+
+
+@keyframes heart {
+    0%{
+    
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+.right #todo-list{
+    float: left;
+    list-style: none;
+    width: 80%;
+    height: 70%;
+    background-color: rgba(122,49,191,0.7);
+    padding: 20px;
+    border-radius: 20px
+}
+
+.right #todo-list li{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
