@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Layout</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@500&display=swap"
+          rel="stylesheet">
+
+
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/0295449c8a.js" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="layout">
+    <header class="header">
+
+        <div class="inner_header">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul class="global-nav-bar">
+                <li>
+                    <a href="#">회사소개</a>
+                    <div class="sub">
+                        <ol>
+                            <li>CEO 인사말</li>
+                            <li>회사연혁</li>
+                            <li>회사비전</li>
+                            <li>경영전략</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">제품보기</a>
+                    <div class="sub">
+                        <ol>
+                            <li>할인 중인 제품</li>
+                            <li>신제품</li>
+                            <li>아이디어 상품</li>
+                            <li>베스트 셀러</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">매장안내</a>
+                    <div class="sub">
+                        <ol>
+                            <li>IKEA 신도림점</li>
+                            <li>IKEA 천호점</li>
+                            <li>IKEA 광명점</li>
+                            <li>IKEA 고양점</li>
+                            <li>IKEA 기흥점</li>
+
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">인재채용</a>
+                    <div class="sub">
+                        <ol>
+                            <li>인재상</li>
+                            <li>채용절차</li>
+                            <li>공지사항</li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">고객지원</a>
+                    <div class="sub">
+                        <ol>
+                            <li>공지사항</li>
+                            <li>자주 찾는 질문</li>
+                            <li>온라인 고객센터</li>
+                            <li>칭찬게시판</li>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+            <div class="link">
+                <ul>
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-align-justify"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--		<div class="bottom_header">-->
+
+        <!--		</div>-->
+
+    </header>
+
+    <div class="container">
+        <div class="wrap">
+            <section class="section" id="section1">
+                <div class="main-visual">
+                    <video autoplay muted loop>
+<!--                        <source src="images/interior.mp4">-->
+                    </video>
+                    <!--					<div class="box"></div>-->
+                </div>
+
+                <div class="description">
+                    <strong>
+                        전국 온라인 배송 서비스
+                    </strong><br>
+                    <h2>IKEA 쇼핑하기</h2><br>
+                    <p>
+                        지금 온라인에서 쇼핑하면 며칠 후에 제품이 배송됩니다. <br>잘 알고 있는 가구라면 이보다 더 간단할 수 없죠</p>
+                </div>
+            </section>
+            <!--section1 end-->
+            <section class="section" id="section2">
+                <h2>Best Category</h2>
+                <span>지금 바로 만나보세요</span>
+                <article>
+
+                    <div class="info-contents">
+                        <div class="info-item">
+                            <div class="img">
+                                <img src="images/who-kitchen.jpg" alt="">
+                                <div class="img-name">Kitchen</div>
+                                <div class="btn"><a href="#">보러가기</a></div>
+                            </div>
+
+                        </div>
+                        <div class="info-item">
+                            <div class="img">
+                                <img src="images/who-bathroom.jpg" alt="">
+                                <div class="img-name">Bathroom</div>
+                                <div class="btn"><a href="#">보러가기</a></div>
+                            </div>
+
+                        </div>
+                        <div class="info-item">
+                            <div class="img">
+                                <img src="images/who-living.jpg" alt="">
+                                <div class="img-name">Furniture</div>
+                                <div class="btn"><a href="#">보러가기</a></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </article>
+            </section>
+            <!--section2 end-->
+
+
+            <section class="section" id="section3">
+                <h2>추천제품</h2>
+                <span>최신 유행 상품만 모아봤어요</span>
+                <div class="recommend-item-box">
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-chair.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>HYLLIS 휠리스</span>
+                            <div class="sold-out">#매진임박</div>
+                            <span>1인용 의자</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦129,000</span>
+                            <div class="order-btn">구매하기</div>
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-clothe1.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>HYLLIS 휠리스</span>
+                            <div class="sold-out point">#포인트 적립 2배</div>
+                            <span>접시 10세트</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦129,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-big-clothe.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>VESKEN 베스켄</span>
+                            <div class="sold-out">#매진임박</div>
+                            <span>다용도 옷장</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>￦499,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-rack.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>VESKEN 베스켄</span>
+                            <span>다용도 선반</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦129,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="recommend-item-box">
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-clothe3.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>LERBERG 레르베리</span>
+                            <div class="sold-out point">#포인트 적립 2배</div>
+                            <span>캐주얼 옷장</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦329,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-clothe1.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>KALSA 칼라스</span>
+                            <div class="sold-out">#매진임박</div>
+                            <span>고목나무 옷장</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+
+                            </div>
+                            <span>￦429,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-bed.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>KLEPPSTAD 클랩스타드</span>
+                            <span>수납장</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦299,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+                    <div class="recommend-item">
+                        <div class="img"><img src="images/new-bed.png" alt=""></div>
+                        <div class="img-desc">
+                            <span>에이스 침대</span>
+                            <span>2인용 침대</span>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>￦879,000</span>
+                            <div class="order-btn">구매하기</div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </section>
+            <!--section3 end-->
+            <section class="section" id="section4">
+            <article>
+                <div class="slick-title">
+                    <h2>11월 행사 및 프로모션</h2>
+                    <span>더 많은 혜택을 누려보세요</span>
+                </div>
+                <div class="slick-box">
+                    <div class="slicks">
+                        <img src="images/promotion-christmas.jpg" alt="">
+                        <div class="description">
+                            <h2>꿈꾸던 크리스마스가 모두 여기에</h2>
+                            <span>환상적인 IKEA의 크리스마스 마켓을 만나보세요. 합리적인 가격대의 제품들로 우리집에 크리스마스 분위기를 가득 불어넣어 줄 아이디어를 얻을 수 있어요</span>
+                        </div>
+                    </div>
+                    <div class="slicks">
+                        <img src="images/promotion-gift-card.jpg" alt="">
+                        <div class="description">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At earum et iusto nobis nostrum numquam, officiis vero! Acc. Ab, deserunt exercitationem.</span>
+                        </div>
+                    </div>
+                    <div class="slicks">
+                        <img src="images/promotion-order.jpg" alt="">
+                        <div class="description">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At earum et iusto nobis nostrum numquam, officiis vero! Acc. Ab, deserunt exercitationem.</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            </section>
+            <!--			section4 end-->
+            <section class="section" id="section5">
+                <article>
+                    <div class="left-box">
+                        <strong>입사지원</strong>
+                        <p>새로운 도약을 준비하는 이케아,<br>
+                            함께 미래를 이끌어 나갈 여러분을 기다리고 있습니다.</p>
+                        <a href="#"><span>채용공고 바로가기</span></a>
+                        <div class="note">NOTE</div>
+                    </div>
+                    <div class="center-box">
+                        <a href="#">
+                            <h3>코로나19 공지사항</h3>
+                        </a>
+                        <strong>매장 영업시간 임시 변경 안내</strong>
+                        <p>IKEA는 코로나 바이러스의 <br>확산 방지 및 고객과 직원의 안전을<br>
+                            위한 정부 지침으로 ...</p>
+                    </div>
+                    <div class="center-box">
+                        <a href="#">
+                            <h3>코로나19 공지사항</h3>
+                        </a>
+                        <strong>매장 영업시간 임시 변경 안내</strong>
+                        <p>IKEA는 코로나 바이러스의 <br>확산 방지 및 고객과 직원의 안전을<br>
+                            위한 정부 지침으로 ...</p>
+                    </div>
+                    <div class="center-box">
+                        <a href="#">
+                            <h3>코로나19 공지사항</h3>
+                        </a>
+                        <strong>매장 영업시간 임시 변경 안내</strong>
+                        <p>IKEA는 코로나 바이러스의 <br>확산 방지 및 고객과 직원의 안전을<br>
+                            위한 정부 지침으로 ...</p>
+                    </div>
+
+                    <div class="right-box">
+                        <a href="#">
+                            <h3>코로나19 공지사항</h3>
+                        </a>
+                        <strong>매장 영업시간 임시 변경 안내</strong>
+                        <p>IKEA는 코로나 바이러스의 <br>확산 방지 및 고객과 직원의 안전을<br>
+                            위한 정부 지침으로 ...</p>
+                    </div>
+                </article>
+            </section>
+
+            <!--section5 end-->
+        </div><!--wrap end-->
+    </div>
+    <footer class="footer">
+        <div class="bar"></div>
+        <article>
+            <div class="copyright">
+                © Inter IKEA Systems B.V 1999-2021
+            </div>
+            <div class="footer_bar">
+                <ul>
+                    <a href="#">
+                        <li>개인정보처리방침</li>
+                    </a>
+                    <a href="#">
+                        <li>쿠키 정책</li>
+                    </a>
+                    <a href="#">
+                        <li>쿠키 설정</li>
+                    </a>
+                    <a href="#">
+                        <li>웹사이트 이용약관</li>
+                    </a>
+                    <a href="#">
+                        <li>Responsible disclosure</li>
+                    </a>
+
+                </ul>
+            </div>
+            <div class="information">
+                IKEA 코리아<br>
+                주소 : (우) 14352 경기도 광명시 일직로 17 IKEA광명점<br>
+                사업자 등록번호 : 106-86-82871 <a href="#">사업자정보확인</a> <br>
+                대표자 : 프레드릭 요한손<br>
+                통신판매업 신고 : 2018-경기광명-0209<br>
+                TEL : 1670-4532 <br>
+            </div>
+        </article>
+    </footer>
+</div>
+
+
+</body>
+</html>
